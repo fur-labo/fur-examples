@@ -5,15 +5,15 @@
     var links = [
         {
             "title": "Banner Examples",
-            "href": "banner-example.html"
+            "href": "banners.html"
         },
         {
             "title": "Favicon Examples",
-            "href": "favicon-example.html"
+            "href": "favicons.html"
         },
         {
             "title": "Identicon Examples",
-            "href": "identicon-example.html"
+            "href": "identicons.html"
         }
     ];
 

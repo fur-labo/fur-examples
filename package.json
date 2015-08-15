@@ -25,12 +25,15 @@
   },
   "homepage": "https://github.com/fur-repo/fur-examples#readme",
   "devDependencies": {
+    "ape-deploying": "^1.0.8",
     "ape-releasing": "^1.0.14",
     "ape-tasking": "^1.0.6",
     "async": "^1.4.2",
     "coz": "^1.5.0",
+    "filecopy": "^1.0.3",
     "fur": "^2.1.3",
     "glob": "^5.0.14",
+    "mkdirp": "^0.5.1",
     "stringcase": "^1.2.3"
   }
 }
