@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <style type="text/css">
+{{{read './.index.css'}}}
+    </style>
+    <title>{{pkg.name}}</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>{{pkg.name}}</h1>
+    </div>
+</header>
+<main>
+    <div class="container">
+    <article>
+        <h1>Banner Examples</h1>
+
+    <table class="wide-table">
+        <thead>
+        <tr>
+            <th>Image</th>
+            <th>Command</th>
+        </tr>
+        </thead>
+        <tbody>
+    {{#each examples.banner}}
+        <tr>
+        <td class="text-align-center">
+            <img class="example-banner"
+                 src="{{{img}}}"/>
+        </td>
+        <td>
+<code>
+$ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
+</code>
+        </td>
+
+        </tr>
+    {{/each}}
+        </tbody>
+    </table>
+    </article>
+    </div>
+</main>
+</body>
+
+</html>

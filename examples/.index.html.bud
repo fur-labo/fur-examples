@@ -1,0 +1,43 @@
+/**
+ * Examples for fur
+ */
+
+"use strict";
+
+var pkg = require('../package.json'),
+    path = require('path'),
+    stringcase = require('stringcase'),
+    util = require('util'),
+    fs = require('fs');
+
+module.exports = {
+    force: true,
+    mode: '444',
+    data: {
+        pkg: pkg,
+        get examples() {
+            var examples = require('../index');
+            var banners = [],
+                favicons = [];
+            Object.keys(examples).forEach(function (key) {
+                var example = examples[key],
+                    banner = example['$banner'];
+                if (banner) {
+                    banners.push({
+                        img: util.format('./%s/banner.png', key),
+                        name: stringcase.spinalcase(banner['text']) + '-banner.' + banner['format'],
+                        options: banner
+                    })
+                }
+            });
+            return {
+                banner: banners,
+                favicon: favicons
+            }
+        }
+    }
+};
+
+if (!module.parent) {
+    require('coz').render(__filename);
+}

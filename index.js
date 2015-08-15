@@ -6,7 +6,16 @@
 "use strict";
 
 var FUR_FONT = 'bt',
-    FUR_COLOR = 'e';
+    FUR_COLOR = 'e',
+
+    PUDDING_COLOR = 'z',
+    PUDDING_FONT = 'j',
+
+    APEMAN_COLOR = 'ad',
+    APEMAN_FONT = 'dj',
+
+    PON_COLOR = 'g',
+    PON_FONT = "ar";
 
 exports['01-fur'] = {
     "$banner": {
@@ -29,17 +38,17 @@ exports['02-coz'] = {
 exports['03-apeman'] = {
     "$banner": {
         text: "apeman",
-        color: "ad",
-        font: "dj",
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
         style: "default"
     }
 };
 
 exports['04-pudding'] = {
     "$banner": {
-        text: "pudding",
-        color: "ad",
-        font: "dj",
+        text: "PUDDING",
+        color: PUDDING_COLOR,
+        font: PUDDING_FONT,
         style: "bordered"
     }
 };
@@ -47,8 +56,8 @@ exports['04-pudding'] = {
 exports['05-pon'] = {
     "$banner": {
         text: "pon",
-        color: "g",
-        font: "ar",
+        color: PON_COLOR,
+        font: PON_FONT,
         style: "plain"
     }
 };
