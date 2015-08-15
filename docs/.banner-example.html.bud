@@ -1,0 +1,17 @@
+/**
+ * Bud for example html.
+ */
+
+"use strict";
+
+module.exports = {
+    force: true,
+    mode: '444',
+    data: {
+        examples: require('../ci/configs/banner-config.json')
+    }
+};
+
+if (!module.parent) {
+    require('coz').render(__filename);
+}
