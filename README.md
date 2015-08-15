@@ -19,11 +19,11 @@ Banner Examples
 
 | Image | Command |
 | ------- | ------ |
-| ![Banner Image](./examples/01-fur/banner.png) | `$ fur banner "fur-banner.png" --text="FUR" --color="e" --font="bt" --style="default" --format="png" ` |
-| ![Banner Image](./examples/02-coz/banner.png) | `$ fur banner "coz-banner.png" --text="coz" --color="o" --font="aa" --style="plain" --format="png" ` |
-| ![Banner Image](./examples/03-apeman/banner.png) | `$ fur banner "apeman-banner.png" --text="apeman" --color="ad" --font="dj" --style="default" --format="png" ` |
-| ![Banner Image](./examples/04-pudding/banner.png) | `$ fur banner "pudding-banner.png" --text="pudding" --color="ad" --font="dj" --style="bordered" --format="png" ` |
-| ![Banner Image](./examples/05-pon/banner.png) | `$ fur banner "pon-banner.png" --text="pon" --color="g" --font="ar" --style="plain" --format="png" ` |
+| <img src="./examples/01-fur/banner.png" width="128" /> | `$ fur banner "fur-banner.png" --text="FUR" --color="e" --font="bt" --style="default" --format="png" ` |
+| <img src="./examples/02-coz/banner.png" width="128" /> | `$ fur banner "coz-banner.png" --text="coz" --color="o" --font="aa" --style="plain" --format="png" ` |
+| <img src="./examples/03-apeman/banner.png" width="128" /> | `$ fur banner "apeman-banner.png" --text="apeman" --color="ad" --font="dj" --style="default" --format="png" ` |
+| <img src="./examples/04-pudding/banner.png" width="128" /> | `$ fur banner "pudding-banner.png" --text="PUDDING" --color="z" --font="j" --style="bordered" --format="png" ` |
+| <img src="./examples/05-pon/banner.png" width="128" /> | `$ fur banner "pon-banner.png" --text="pon" --color="g" --font="ar" --style="plain" --format="png" ` |
 
 
 
