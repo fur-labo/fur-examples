@@ -1,0 +1,26 @@
+/**
+ * Examples for fur
+ */
+
+"use strict";
+
+var pkg = require('./package.json'),
+    path = require('path'),
+    fs = require('fs');
+
+module.exports = {
+    force: true,
+    mode: '444',
+    data: {
+        pkg: pkg,
+        repo: 'fur-repo/fur-examples',
+        links: {
+            'fur': 'https://github.com/fur-repo/fur'
+        },
+        examples: require('./index.js')
+    }
+};
+
+if (!module.parent) {
+    require('coz').render(__filename);
+}

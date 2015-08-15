@@ -1,0 +1,33 @@
+{
+  "name": "fur-examples",
+  "version": "1.0.0",
+  "description": "Examples for fur",
+  "main": "index.js",
+  "scripts": {
+    "build": "./ci_build.js",
+    "release": "./ci_release.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fur-repo/fur-examples.git"
+  },
+  "keywords": [
+    "fur",
+    "examples"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fur-repo/fur-examples/issues"
+  },
+  "homepage": "https://github.com/fur-repo/fur-examples#readme",
+  "devDependencies": {
+    "ape-releasing": "^1.0.14",
+    "ape-tasking": "^1.0.6",
+    "coz": "^1.5.0",
+    "glob": "^5.0.14"
+  }
+}
