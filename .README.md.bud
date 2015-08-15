@@ -6,6 +6,8 @@
 
 var pkg = require('./package.json'),
     path = require('path'),
+    stringcase = require('stringcase'),
+    util = require('util'),
     fs = require('fs');
 
 module.exports = {
@@ -17,7 +19,26 @@ module.exports = {
         links: {
             'fur': 'https://github.com/fur-repo/fur'
         },
-        examples: require('./index.js')
+        get examples() {
+            var examples = require('./index');
+            var banners = [],
+                favicons = [];
+            Object.keys(examples).forEach(function (key) {
+                var example = examples[key],
+                    banner = example['$banner'];
+                if (banner) {
+                    banners.push({
+                        img: util.format('./examples/%s/banner.png', key),
+                        name: stringcase.spinalcase(banner['text']) + '-banner.' + banner['format'],
+                        options: banner
+                    })
+                }
+            });
+            return {
+                banner: banners,
+                favicon: favicons
+            }
+        }
     }
 };
 

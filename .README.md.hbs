@@ -15,23 +15,17 @@
 Examples
 --------
 
-{{#each examples}}
-<a name="{{spinalcase @key}}"></a>
-### {{titlecase @key}}
 
-{{#each this}}
-**[{{path}}](./{{path}})**
+### Banners
 
-```{{{type}}}
-{{{read path}}}
-```
+| Image | Command |
+| ------- | ------ |
+{{#each examples.banner}}
+| ![Banner Image]({{{img}}}) | `$ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}` |
 {{/each}}
 
 
-{{/each}}
-
-
-<a name="example"></a>
+<a name="links"></a>
 Links
 --------
 
