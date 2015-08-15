@@ -6,16 +6,16 @@ Examples for fur
 [![Build Status][my_travis_badge_url]][my_travis_url]
 [![npm version][my_npm_budge_url]][my_npm_url]
 
-+ [Banner](#banner)
-+ [Favicon](#favicon)
 
 
-<a name="example"></a>
-Examples
---------
++ [Banner Examples](#banner-examples)
++ [Favicon Examples](#favicon-examples)
++ [Identicion Examples](#identicion-examples)
 
+<a name="banner-example"></a>
 
-### Banners
+Banner Examples
+------------
 
 | Image | Command |
 | ------- | ------ |
@@ -24,6 +24,21 @@ Examples
 | ![Banner Image](./examples/03-apeman/banner.png) | `$ fur banner "apeman-banner.png" --text="apeman" --color="ad" --font="dj" --style="default" --format="png" ` |
 | ![Banner Image](./examples/04-pudding/banner.png) | `$ fur banner "pudding-banner.png" --text="pudding" --color="ad" --font="dj" --style="bordered" --format="png" ` |
 | ![Banner Image](./examples/05-pon/banner.png) | `$ fur banner "pon-banner.png" --text="pon" --color="g" --font="ar" --style="plain" --format="png" ` |
+
+
+
+<a name="favicon-example"></a>
+
+Favicon Examples
+------------
+
+
+
+<a name="identicion-example"></a>
+
+Identicion Examples
+------------
+
 
 
 <a name="links"></a>

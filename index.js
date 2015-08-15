@@ -8,7 +8,6 @@
 var FUR_FONT = 'bt',
     FUR_COLOR = 'e';
 
-
 exports['01-fur'] = {
     "$banner": {
         text: "FUR",

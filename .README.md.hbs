@@ -6,23 +6,37 @@
 [![Build Status][my_travis_badge_url]][my_travis_url]
 [![npm version][my_npm_budge_url]][my_npm_url]
 
-{{#each examples}}
-+ [{{titlecase @key}}](#{{spinalcase @key}})
-{{/each}}
 
 
-<a name="example"></a>
-Examples
---------
++ [Banner Examples](#banner-examples)
++ [Favicon Examples](#favicon-examples)
++ [Identicion Examples](#identicion-examples)
 
+<a name="banner-example"></a>
 
-### Banners
+Banner Examples
+------------
 
 | Image | Command |
 | ------- | ------ |
 {{#each examples.banner}}
 | ![Banner Image]({{{img}}}) | `$ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}` |
 {{/each}}
+
+
+
+<a name="favicon-example"></a>
+
+Favicon Examples
+------------
+
+
+
+<a name="identicion-example"></a>
+
+Identicion Examples
+------------
+
 
 
 <a name="links"></a>
