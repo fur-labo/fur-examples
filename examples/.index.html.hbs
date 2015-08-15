@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <style type="text/css">
-{{{read './.index.css'}}}
+            {{{read './.index.css'}}}
     </style>
     <title>{{pkg.name}}</title>
 </head>
@@ -15,34 +15,64 @@
 </header>
 <main>
     <div class="container">
-    <article>
-        <h1>Banner Examples</h1>
+        <article>
+            <h1>Banner Examples</h1>
 
-    <table class="wide-table">
-        <thead>
-        <tr>
-            <th>Image</th>
-            <th>Command</th>
-        </tr>
-        </thead>
-        <tbody>
-    {{#each examples.banner}}
-        <tr>
-        <td class="text-align-center">
-            <img class="example-banner"
-                 src="{{{img}}}"/>
-        </td>
-        <td>
-<code>
-$ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
-</code>
-        </td>
+            <table class="wide-table">
+                <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Command</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each examples.banner}}
+                    <tr>
+                        <td class="text-align-center">
+                            <img class="example-banner"
+                                 src="{{{img}}}"/>
+                        </td>
+                        <td>
+                            <code>
+                                $ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
+                            </code>
+                        </td>
 
-        </tr>
-    {{/each}}
-        </tbody>
-    </table>
-    </article>
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </article>
+    </div>
+    <div class="container">
+        <article>
+            <h1>Favicon Examples</h1>
+
+            <table class="wide-table">
+                <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Command</th>
+                </tr>
+                </thead>
+                <tbody>
+                {{#each examples.favicon}}
+                    <tr>
+                        <td class="text-align-center">
+                            <img class="example-banner"
+                                 src="{{{img}}}"/>
+                        </td>
+                        <td>
+                            <code>
+                            $ fur favicon "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
+                            </code>
+                        </td>
+
+                    </tr>
+                {{/each}}
+                </tbody>
+            </table>
+        </article>
     </div>
 </main>
 </body>

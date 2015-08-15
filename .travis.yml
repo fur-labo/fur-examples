@@ -5,4 +5,4 @@ before_install:
 install:
 - npm install
 script:
-- "./ci_build.js"
+- "./ci/build.js"

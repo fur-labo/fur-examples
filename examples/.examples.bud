@@ -19,6 +19,21 @@ function _bannerShBud(dirname, data) {
     }
 }
 
+function _faviconShBud(dirname, data) {
+    data['format'] = data['format'] || 'png';
+    return {
+        force: true,
+        mode: '555',
+        mkdirp: true,
+        tmpl: '.render_favicon.sh.hbs',
+        path: dirname + '/render_favicon.sh',
+        data: {
+            name: 'favicon.' + data['format'],
+            options: data
+        }
+    }
+}
+
 var examples = require('../index.js');
 
 module.exports = Object.keys(examples).map(function (key) {
@@ -28,6 +43,10 @@ module.exports = Object.keys(examples).map(function (key) {
     var banner = example['$banner'];
     if (banner) {
         buds.push(_bannerShBud(key, example['$banner']));
+    }
+    var favicon = example['$favicon'];
+    if (favicon) {
+        buds.push(_faviconShBud(key, example['$favicon']));
     }
     return buds;
 }).reduce(function (a, b) {

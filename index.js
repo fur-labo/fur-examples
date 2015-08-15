@@ -8,6 +8,9 @@
 var FUR_FONT = 'bt',
     FUR_COLOR = 'e',
 
+    COZ_COLOR = 'o',
+    COZ_FONT = 'aa',
+
     PUDDING_COLOR = 'z',
     PUDDING_FONT = 'j',
 
@@ -18,35 +21,59 @@ var FUR_FONT = 'bt',
     PON_FONT = "ar";
 
 exports['01-fur'] = {
-    "$banner": {
+    $banner: {
         text: "FUR",
         color: FUR_COLOR,
         font: FUR_FONT,
         style: "default"
+    },
+    $favicon: {
+        text: "F",
+        color: FUR_COLOR,
+        font: FUR_FONT,
+        "style": "default"
     }
 };
 
 exports['02-coz'] = {
-    "$banner": {
+    $banner: {
         text: "coz",
-        color: "o",
-        font: "aa",
+        color: COZ_COLOR,
+        font: COZ_FONT,
+        style: "plain"
+    },
+    $favicon: {
+        text: "c",
+        color: COZ_COLOR,
+        font: COZ_FONT,
         style: "plain"
     }
 };
 
 exports['03-apeman'] = {
-    "$banner": {
+    $banner: {
         text: "apeman",
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
         style: "default"
+    },
+    $favicon:{
+        text:'ap',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        style:'circle'
     }
 };
 
 exports['04-pudding'] = {
-    "$banner": {
+    $banner: {
         text: "PUDDING",
+        color: PUDDING_COLOR,
+        font: PUDDING_FONT,
+        style: "bordered"
+    },
+    $favicon: {
+        text: "P",
         color: PUDDING_COLOR,
         font: PUDDING_FONT,
         style: "bordered"
@@ -54,11 +81,17 @@ exports['04-pudding'] = {
 };
 
 exports['05-pon'] = {
-    "$banner": {
+    $banner: {
         text: "pon",
         color: PON_COLOR,
         font: PON_FONT,
         style: "plain"
+    },
+    $favicon:{
+        text:'pon',
+        color: PON_COLOR,
+        font: PON_FONT,
+        style:'circle'
     }
 };
 
