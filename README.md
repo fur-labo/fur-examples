@@ -34,11 +34,11 @@ Favicon Examples
 
 | Image | Command |
 | ------- | ------ |
-| <img src="./01-fur/favicon.png" width="128" /> | `$ fur favicon "f-favicon.png" --text="F" --color="e" --font="bt" --style="default" --format="png" ` |
-| <img src="./02-coz/favicon.png" width="128" /> | `$ fur favicon "c-favicon.png" --text="c" --color="o" --font="aa" --style="plain" --format="png" ` |
-| <img src="./03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.png" --text="ap" --color="ad" --font="dj" --style="circle" --format="png" ` |
-| <img src="./04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.png" --text="P" --color="z" --font="j" --style="bordered" --format="png" ` |
-| <img src="./05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.png" --text="pon" --color="g" --font="ar" --style="circle" --format="png" ` |
+| <img src="./examples/01-fur/favicon.png" width="128" /> | `$ fur favicon "f-favicon.png" --text="F" --color="e" --font="bt" --style="default" --format="png" ` |
+| <img src="./examples/02-coz/favicon.png" width="128" /> | `$ fur favicon "c-favicon.png" --text="c" --color="o" --font="aa" --style="plain" --format="png" ` |
+| <img src="./examples/03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.png" --text="ap" --color="ad" --font="dj" --style="circle" --format="png" ` |
+| <img src="./examples/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.png" --text="P" --color="z" --font="j" --style="bordered" --format="png" ` |
+| <img src="./examples/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.png" --text="pon" --color="g" --font="ar" --style="circle" --format="png" ` |
 
 
 

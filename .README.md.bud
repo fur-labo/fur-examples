@@ -36,7 +36,7 @@ module.exports = {
                 }
                 if (favicon) {
                     favicons.push({
-                        img: util.format('./%s/favicon.png', key),
+                        img: util.format('./examples/%s/favicon.png', key),
                         name: stringcase.spinalcase(favicon['text']) + '-favicon.' + favicon['format'],
                         options: favicon
                     });
