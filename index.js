@@ -11,11 +11,11 @@ var FUR_FONT = 'bt',
     COZ_COLOR = 'o',
     COZ_FONT = 'aa',
 
-    PUDDING_COLOR = 'z',
-    PUDDING_FONT = 'j',
+    PUDDING_COLOR = 'zz',
+    PUDDING_FONT = 'cr',
 
-    APEMAN_COLOR = 'ad',
-    APEMAN_FONT = 'dj',
+    APEMAN_COLOR = '#7B2F00',
+    APEMAN_FONT = 'cd',
 
     PON_COLOR = 'g',
     PON_FONT = "ar";
