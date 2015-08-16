@@ -30,12 +30,13 @@ Banner Examples
 Favicon Examples
 ------------
 
+| Image | Command |
+| ------- | ------ |
+{{#each examples.favicon}}
+| <img src="{{{img}}}" width="128" /> | `$ fur favicon "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}` |
+{{/each}}
 
 
-<a name="identicion-example"></a>
-
-Identicion Examples
-------------
 
 
 
