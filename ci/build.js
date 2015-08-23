@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Build this package.j
+ * Build this package.
  */
 
 "use strict";

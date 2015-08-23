@@ -1,2 +1,2 @@
 #!/bin/bash
-fur favicon "favicon.png" --text="P" --color="zz" --font="be" --style="bordered" --format="png" 
+fur favicon "favicon.png" --text="P" --color="#004BBB" --font="cn" --style="default" --format="png" 

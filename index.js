@@ -11,11 +11,11 @@ var FUR_FONT = 'bt',
     COZ_COLOR = 'o',
     COZ_FONT = 'aa',
 
-    PUDDING_COLOR = 'zz',
-    PUDDING_FONT = 'cr',
+    PUDDING_COLOR = '#004BBB',
+    PUDDING_FONT = 'cn',
 
-    APEMAN_COLOR = '#7B2F00',
-    APEMAN_FONT = 'cd',
+    APEMAN_COLOR = '#3C0B00',
+    APEMAN_FONT = 'p',
 
     PON_COLOR = 'g',
     PON_FONT = "ar";
@@ -70,13 +70,13 @@ exports['04-pudding'] = {
         text: "PUDDING",
         color: PUDDING_COLOR,
         font: PUDDING_FONT,
-        style: "bordered"
+        style: "plain"
     },
     $favicon: {
         text: "P",
         color: PUDDING_COLOR,
         font: PUDDING_FONT,
-        style: "bordered"
+        style: "default"
     }
 };
 
