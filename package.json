@@ -1,6 +1,6 @@
 {
   "name": "fur-examples",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Examples for fur",
   "main": "index.js",
   "scripts": {
