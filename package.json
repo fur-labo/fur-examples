@@ -1,6 +1,6 @@
 {
   "name": "fur-examples",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Examples for fur",
   "main": "index.js",
   "scripts": {
@@ -32,10 +32,10 @@
     "ape-tasking": "^1.0.6",
     "ape-updating": "^1.0.1",
     "async": "^1.4.2",
-    "coz": "^3.0.11",
+    "coz": "^3.0.12",
     "execcli": "^2.1.1",
     "filecopy": "^1.0.5",
-    "fur": "^2.1.4",
+    "fur": "^2.1.5",
     "glob": "^5.0.14",
     "mkdirp": "^0.5.1",
     "stringcase": "^1.2.4"
