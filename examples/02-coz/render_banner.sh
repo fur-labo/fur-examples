@@ -1,2 +1,2 @@
 #!/bin/bash
-fur banner "banner.png" --text="coz" --color="o" --font="aa" --style="plain" --format="png" 
+fur banner "banner.png" --text="coz" --color="#00b560" --font="aa" --shape="b" --format="png" 

@@ -6,18 +6,18 @@
 "use strict";
 
 var FUR_FONT = 'bt',
-    FUR_COLOR = 'e',
+    FUR_COLOR = '#ff9100',
 
-    COZ_COLOR = 'o',
+    COZ_COLOR = '#00b560',
     COZ_FONT = 'aa',
 
-    PUDDING_COLOR = '#004BBB',
+    PUDDING_COLOR = 'bi',
     PUDDING_FONT = 'cn',
 
-    APEMAN_COLOR = '#3C0B00',
+    APEMAN_COLOR = 'n',
     APEMAN_FONT = 'p',
 
-    PON_COLOR = 'g',
+    PON_COLOR = 'ah',
     PON_FONT = "ar";
 
 exports['01-fur'] = {
@@ -25,13 +25,13 @@ exports['01-fur'] = {
         text: "FUR",
         color: FUR_COLOR,
         font: FUR_FONT,
-        style: "default"
+        shape: "a"
     },
     $favicon: {
         text: "F",
         color: FUR_COLOR,
         font: FUR_FONT,
-        "style": "default"
+        shape: "a"
     }
 };
 
@@ -40,13 +40,13 @@ exports['02-coz'] = {
         text: "coz",
         color: COZ_COLOR,
         font: COZ_FONT,
-        style: "plain"
+        shape: "b"
     },
     $favicon: {
         text: "c",
         color: COZ_COLOR,
         font: COZ_FONT,
-        style: "plain"
+        shape: "c"
     }
 };
 
@@ -55,13 +55,13 @@ exports['03-apeman'] = {
         text: "apeman",
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        style: "default"
+        shape: "a"
     },
     $favicon:{
         text:'ap',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        style:'circle'
+        shape:'g'
     }
 };
 
@@ -70,13 +70,13 @@ exports['04-pudding'] = {
         text: "PUDDING",
         color: PUDDING_COLOR,
         font: PUDDING_FONT,
-        style: "plain"
+        shape: "e"
     },
     $favicon: {
         text: "P",
         color: PUDDING_COLOR,
         font: PUDDING_FONT,
-        style: "default"
+        shape: "a"
     }
 };
 
@@ -85,13 +85,13 @@ exports['05-pon'] = {
         text: "pon",
         color: PON_COLOR,
         font: PON_FONT,
-        style: "plain"
+        shape: "f"
     },
     $favicon:{
         text:'pon',
         color: PON_COLOR,
         font: PON_FONT,
-        style:'circle'
+        shape:'g'
     }
 };
 

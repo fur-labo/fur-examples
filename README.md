@@ -16,11 +16,11 @@ Banner Examples
 
 | Image | Command |
 | ------- | ------ |
-| <img src="./examples/01-fur/banner.png" width="128" /> | `$ fur banner "fur-banner.png" --text="FUR" --color="e" --font="bt" --style="default" --format="png" ` |
-| <img src="./examples/02-coz/banner.png" width="128" /> | `$ fur banner "coz-banner.png" --text="coz" --color="o" --font="aa" --style="plain" --format="png" ` |
-| <img src="./examples/03-apeman/banner.png" width="128" /> | `$ fur banner "apeman-banner.png" --text="apeman" --color="#3C0B00" --font="p" --style="default" --format="png" ` |
-| <img src="./examples/04-pudding/banner.png" width="128" /> | `$ fur banner "pudding-banner.png" --text="PUDDING" --color="#004BBB" --font="cn" --style="plain" --format="png" ` |
-| <img src="./examples/05-pon/banner.png" width="128" /> | `$ fur banner "pon-banner.png" --text="pon" --color="g" --font="ar" --style="plain" --format="png" ` |
+| <img src="./examples/01-fur/banner.png" width="128" /> | `$ fur banner "fur-banner.undefined" --text="FUR" --color="#ff9100" --font="bt" --shape="a" ` |
+| <img src="./examples/02-coz/banner.png" width="128" /> | `$ fur banner "coz-banner.undefined" --text="coz" --color="#00b560" --font="aa" --shape="b" ` |
+| <img src="./examples/03-apeman/banner.png" width="128" /> | `$ fur banner "apeman-banner.undefined" --text="apeman" --color="n" --font="p" --shape="a" ` |
+| <img src="./examples/04-pudding/banner.png" width="128" /> | `$ fur banner "pudding-banner.undefined" --text="PUDDING" --color="bi" --font="cn" --shape="e" ` |
+| <img src="./examples/05-pon/banner.png" width="128" /> | `$ fur banner "pon-banner.undefined" --text="pon" --color="ah" --font="ar" --shape="f" ` |
 
 
 
@@ -31,11 +31,11 @@ Favicon Examples
 
 | Image | Command |
 | ------- | ------ |
-| <img src="./examples/01-fur/favicon.png" width="128" /> | `$ fur favicon "f-favicon.png" --text="F" --color="e" --font="bt" --style="default" --format="png" ` |
-| <img src="./examples/02-coz/favicon.png" width="128" /> | `$ fur favicon "c-favicon.png" --text="c" --color="o" --font="aa" --style="plain" --format="png" ` |
-| <img src="./examples/03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.png" --text="ap" --color="#3C0B00" --font="p" --style="circle" --format="png" ` |
-| <img src="./examples/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.png" --text="P" --color="#004BBB" --font="cn" --style="default" --format="png" ` |
-| <img src="./examples/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.png" --text="pon" --color="g" --font="ar" --style="circle" --format="png" ` |
+| <img src="./examples/01-fur/favicon.png" width="128" /> | `$ fur favicon "f-favicon.undefined" --text="F" --color="#ff9100" --font="bt" --shape="a" ` |
+| <img src="./examples/02-coz/favicon.png" width="128" /> | `$ fur favicon "c-favicon.undefined" --text="c" --color="#00b560" --font="aa" --shape="c" ` |
+| <img src="./examples/03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.undefined" --text="ap" --color="n" --font="p" --shape="g" ` |
+| <img src="./examples/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.undefined" --text="P" --color="bi" --font="cn" --shape="a" ` |
+| <img src="./examples/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.undefined" --text="pon" --color="ah" --font="ar" --shape="g" ` |
 
 
 
