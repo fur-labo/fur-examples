@@ -30,14 +30,14 @@ module.exports = {
                 if (banner) {
                     banners.push({
                         img: util.format('./examples/%s/banner.png', key),
-                        name: stringcase.spinalcase(banner['text']) + '-banner.' + banner['format'],
+                        name: stringcase.spinalcase(banner['text']) + '-banner.' + (banner['format'] || 'svg'),
                         options: banner
                     })
                 }
                 if (favicon) {
                     favicons.push({
                         img: util.format('./examples/%s/favicon.png', key),
-                        name: stringcase.spinalcase(favicon['text']) + '-favicon.' + favicon['format'],
+                        name: stringcase.spinalcase(favicon['text']) + '-favicon.' + (favicon['format'] || 'svg'),
                         options: favicon
                     });
                 }
