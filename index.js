@@ -18,7 +18,10 @@ var FUR_FONT = 'bt',
     APEMAN_FONT = 'p',
 
     PON_COLOR = 'ah',
-    PON_FONT = "ar";
+    PON_FONT = 'ar',
+
+    THE_COLOR = 'ac',
+    THE_FONT = 'e';
 
 exports['01-fur'] = {
     $banner: {
@@ -57,11 +60,11 @@ exports['03-apeman'] = {
         font: APEMAN_FONT,
         shape: "a"
     },
-    $favicon:{
-        text:'ap',
+    $favicon: {
+        text: 'ap',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        shape:'g'
+        shape: 'g'
     }
 };
 
@@ -87,11 +90,27 @@ exports['05-pon'] = {
         font: PON_FONT,
         shape: "f"
     },
-    $favicon:{
-        text:'pon',
+    $favicon: {
+        text: 'pon',
         color: PON_COLOR,
         font: PON_FONT,
-        shape:'g'
+        shape: 'g'
+    }
+};
+
+exports['06-the'] = {
+    $banner: {
+        text: "the",
+        color: THE_COLOR,
+        font: THE_FONT,
+        shape: "f"
+    },
+    $favicon: {
+        text: 'the',
+        color: THE_COLOR,
+        font: THE_FONT,
+        shape: 'c',
+        fontSize: '124'
     }
 };
 

@@ -21,6 +21,7 @@ Banner Examples
 | <img src="./examples/03-apeman/banner.png" width="128" /> | `$ fur banner "apeman-banner.svg" --text="apeman" --color="n" --font="p" --shape="a" ` |
 | <img src="./examples/04-pudding/banner.png" width="128" /> | `$ fur banner "pudding-banner.svg" --text="PUDDING" --color="bi" --font="cn" --shape="e" ` |
 | <img src="./examples/05-pon/banner.png" width="128" /> | `$ fur banner "pon-banner.svg" --text="pon" --color="ah" --font="ar" --shape="f" ` |
+| <img src="./examples/06-the/banner.png" width="128" /> | `$ fur banner "the-banner.svg" --text="the" --color="ac" --font="e" --shape="f" ` |
 
 
 
@@ -36,6 +37,7 @@ Favicon Examples
 | <img src="./examples/03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.svg" --text="ap" --color="n" --font="p" --shape="g" ` |
 | <img src="./examples/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.svg" --text="P" --color="bi" --font="cn" --shape="a" ` |
 | <img src="./examples/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.svg" --text="pon" --color="ah" --font="ar" --shape="g" ` |
+| <img src="./examples/06-the/favicon.png" width="128" /> | `$ fur favicon "the-favicon.svg" --text="the" --color="ac" --font="e" --shape="c" --font-size="124" ` |
 
 
 

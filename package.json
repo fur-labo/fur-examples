@@ -1,6 +1,6 @@
 {
   "name": "fur-examples",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Examples for fur",
   "main": "index.js",
   "scripts": {
@@ -29,13 +29,13 @@
   "devDependencies": {
     "ape-deploying": "^1.0.8",
     "ape-releasing": "^1.0.14",
-    "ape-tasking": "^1.0.6",
+    "ape-tasking": "^1.0.7",
     "ape-updating": "^1.0.1",
     "async": "^1.4.2",
     "coz": "^3.0.13",
     "execcli": "^2.1.1",
     "filecopy": "^1.0.5",
-    "fur": "^3.0.0",
+    "fur": "^3.0.4",
     "glob": "^5.0.14",
     "mkdirp": "^0.5.1",
     "stringcase": "^1.2.5"
