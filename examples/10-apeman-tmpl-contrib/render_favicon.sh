@@ -1,2 +1,2 @@
 #!/bin/bash
-fur favicon "favicon.png" --text="tmpl" --color="n" --font="p" --shape="b" --font-size="98" --format="png" 
+fur favicon "favicon.png" --text="tmpl" --color="n" --font="p" --shape="i" --font-size="92" --format="png" 

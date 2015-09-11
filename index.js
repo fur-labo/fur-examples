@@ -16,6 +16,8 @@ var FUR_FONT = 'bt',
 
     APEMAN_COLOR = 'n',
     APEMAN_FONT = 'p',
+    APEMAN_CONTRIB_FAVICON_SHAPE = 'i',
+    APEMAN_CONTRIB_FAVICON_FONT_SIZE= 92,
 
     PON_COLOR = 'ah',
     PON_FONT = 'ar',
@@ -119,7 +121,8 @@ exports['07-apeman-ui-contrib'] = {
         text: 'ui',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        shape: 'b'
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
 
@@ -128,8 +131,8 @@ exports['08-apeman-app-contrib'] = {
         text: 'app',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        shape: 'b',
-        fontSize: 98
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
 
@@ -138,8 +141,8 @@ exports['09-apeman-task-contrib'] = {
         text: 'task',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        shape: 'b',
-        fontSize: 98
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
 
@@ -148,7 +151,17 @@ exports['10-apeman-tmpl-contrib'] = {
         text: 'tmpl',
         color: APEMAN_COLOR,
         font: APEMAN_FONT,
-        shape: 'b',
-        fontSize: 98
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};
+
+exports['11-apeman-scaffold-contrib'] = {
+    $favicon: {
+        text: 'scff',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
