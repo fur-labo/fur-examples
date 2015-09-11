@@ -114,3 +114,41 @@ exports['06-the'] = {
     }
 };
 
+exports['07-apeman-ui-contrib'] = {
+    $favicon: {
+        text: 'ui',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: 'b'
+    }
+};
+
+exports['08-apeman-app-contrib'] = {
+    $favicon: {
+        text: 'app',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: 'b',
+        fontSize: 98
+    }
+};
+
+exports['09-apeman-task-contrib'] = {
+    $favicon: {
+        text: 'task',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: 'b',
+        fontSize: 98
+    }
+};
+
+exports['10-apeman-tmpl-contrib'] = {
+    $favicon: {
+        text: 'tmpl',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: 'b',
+        fontSize: 98
+    }
+};

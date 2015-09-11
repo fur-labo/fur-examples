@@ -38,6 +38,10 @@ Favicon Examples
 | <img src="./examples/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.svg" --text="P" --color="bi" --font="cn" --shape="a" ` |
 | <img src="./examples/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.svg" --text="pon" --color="ah" --font="ar" --shape="g" ` |
 | <img src="./examples/06-the/favicon.png" width="128" /> | `$ fur favicon "the-favicon.svg" --text="the" --color="ac" --font="e" --shape="c" --font-size="124" ` |
+| <img src="./examples/07-apeman-ui-contrib/favicon.png" width="128" /> | `$ fur favicon "ui-favicon.svg" --text="ui" --color="n" --font="p" --shape="b" ` |
+| <img src="./examples/08-apeman-app-contrib/favicon.png" width="128" /> | `$ fur favicon "app-favicon.svg" --text="app" --color="n" --font="p" --shape="b" --font-size="98" ` |
+| <img src="./examples/09-apeman-task-contrib/favicon.png" width="128" /> | `$ fur favicon "task-favicon.svg" --text="task" --color="n" --font="p" --shape="b" --font-size="98" ` |
+| <img src="./examples/10-apeman-tmpl-contrib/favicon.png" width="128" /> | `$ fur favicon "tmpl-favicon.svg" --text="tmpl" --color="n" --font="p" --shape="b" --font-size="98" ` |
 
 
 
