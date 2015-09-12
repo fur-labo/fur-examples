@@ -14,7 +14,7 @@ apeTasking.runTasks('build', [
     function (callback) {
         require('coz').render([
             ".*.bud",
-            "examples/.*.bud"
+            "example/.*.bud"
         ], callback);
     }
 ], true);

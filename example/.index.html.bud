@@ -1,5 +1,5 @@
 /**
- * Examples for fur
+ * example for fur
  */
 
 "use strict";
@@ -15,7 +15,7 @@ module.exports = {
     mode: '444',
     data: {
         pkg: pkg,
-        get examples() {
+        get example() {
             var examples = require('../index');
             var banners = [],
                 favicons = [];

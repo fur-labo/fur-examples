@@ -13,7 +13,7 @@ var apeTasking = require('ape-tasking'),
 
 apeTasking.runTasks('deploy', [
     function deployGhPages(callback) {
-        apeDeploying.deployGhPages("examples", callback);
+        apeDeploying.deployGhPages("example", callback);
     }
 ], true);
 

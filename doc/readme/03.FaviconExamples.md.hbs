@@ -1,0 +1,11 @@
+<a name="favicon-example"></a>
+
+Favicon Examples
+------------
+
+| Image | Command |
+| ------- | ------ |
+{{#each vars.examples.favicon}}
+| <img src="{{{img}}}" width="128" /> | `$ fur favicon "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}` |
+{{/each}}
+

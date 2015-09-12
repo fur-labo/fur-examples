@@ -1,18 +1,10 @@
 {
   "name": "fur-examples",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "Examples for fur",
   "main": "index.js",
-  "scripts": {
-    "build": "./ci/build.js",
-    "update": "./ci/update.js",
-    "render": "./ci/render.js",
-    "release": "./ci/release.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fur-repo/fur-examples.git"
-  },
+  "scripts": {},
+  "repository": "fur-repo/fur-examples",
   "keywords": [
     "fur",
     "examples"
@@ -28,14 +20,15 @@
   "homepage": "https://github.com/fur-repo/fur-examples#readme",
   "devDependencies": {
     "ape-deploying": "^1.0.8",
-    "ape-releasing": "^1.0.14",
+    "ape-releasing": "^1.0.16",
     "ape-tasking": "^1.0.7",
+    "ape-tmpl": "^1.2.0",
     "ape-updating": "^1.0.1",
     "async": "^1.4.2",
-    "coz": "^3.0.13",
+    "coz": "^3.0.15",
     "execcli": "^2.1.1",
     "filecopy": "^1.0.5",
-    "fur": "^3.0.4",
+    "fur": "^3.0.5",
     "glob": "^5.0.14",
     "mkdirp": "^0.5.1",
     "stringcase": "^1.2.5"

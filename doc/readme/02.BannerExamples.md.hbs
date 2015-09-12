@@ -1,0 +1,10 @@
+<a name="banner-example"></a>
+
+Banner Examples
+------------
+
+| Image | Command |
+| ------- | ------ |
+{{#each vars.examples.banner}}
+| <img src="{{{img}}}" width="128" /> | `$ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}` |
+{{/each}}

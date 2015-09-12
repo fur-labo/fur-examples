@@ -165,3 +165,14 @@ exports['11-apeman-scaffold-contrib'] = {
         fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
+
+
+exports['12-apeman-demo-contrib'] = {
+    $favicon: {
+        text: 'demo',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};

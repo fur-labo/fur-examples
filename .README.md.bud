@@ -5,20 +5,22 @@
 "use strict";
 
 var pkg = require('./package.json'),
-    path = require('path'),
+    apeTmpl = require('ape-tmpl'),
     stringcase = require('stringcase'),
-    util = require('util'),
-    fs = require('fs');
+    util = require('util');
 
-module.exports = {
-    force: true,
-    mode: '444',
-    data: {
-        pkg: pkg,
-        repo: 'fur-repo/fur-examples',
-        links: {
-            'fur': 'https://github.com/fur-repo/fur'
-        },
+module.exports = apeTmpl.readmeMdBud({
+    pkg: pkg,
+    repo: pkg.repository,
+    sections: 'doc/readme/*.md.hbs',
+    badges: {
+        travis: true,
+        codeclimate: false,
+        codeclimateCoverage: false,
+        gemnasium: false,
+        npm: true
+    },
+    vars: {
         get examples() {
             var examples = require('./index');
             var banners = [],
@@ -29,14 +31,14 @@ module.exports = {
                     favicon = example['$favicon'];
                 if (banner) {
                     banners.push({
-                        img: util.format('./examples/%s/banner.png', key),
+                        img: util.format('./example/%s/banner.png', key),
                         name: stringcase.spinalcase(banner['text']) + '-banner.' + (banner['format'] || 'svg'),
                         options: banner
                     })
                 }
                 if (favicon) {
                     favicons.push({
-                        img: util.format('./examples/%s/favicon.png', key),
+                        img: util.format('./example/%s/favicon.png', key),
                         name: stringcase.spinalcase(favicon['text']) + '-favicon.' + (favicon['format'] || 'svg'),
                         options: favicon
                     });
@@ -48,7 +50,7 @@ module.exports = {
             }
         }
     }
-};
+});
 
 if (!module.parent) {
     require('coz').render(__filename);

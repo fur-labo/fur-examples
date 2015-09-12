@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Render examples.
+ * Render example.
  */
 
 "use strict";
@@ -19,13 +19,13 @@ var apeTasking = require('ape-tasking'),
 apeTasking.runTasks('render', [
     function renderBuds(callback) {
         coz.render([
-            'examples/.*.bud'
+            'example/.*.bud'
         ], callback);
     },
     function renderImage(callback) {
         async.waterfall([
             function (callback) {
-                glob('examples/*/render*.sh', callback);
+                glob('example/*/render*.sh', callback);
             },
             function (filenames, callback) {
                 async.eachSeries(filenames, function (filename, callback) {
