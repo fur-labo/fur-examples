@@ -1,0 +1,58 @@
+/**
+ * Render example.
+ */
+
+"use strict";
+
+function _bannerShBud(dirname, data) {
+    data['format'] = data['format'] || 'png';
+    return {
+        force: true,
+        mode: '555',
+        mkdirp: true,
+        tmpl: '.render_banner.sh.hbs',
+        path: dirname + '/render_banner.sh',
+        data: {
+            name: 'banner.' + data['format'],
+            options: data
+        }
+    }
+}
+
+function _faviconShBud(dirname, data) {
+    data['format'] = data['format'] || 'png';
+    return {
+        force: true,
+        mode: '555',
+        mkdirp: true,
+        tmpl: '.render_favicon.sh.hbs',
+        path: dirname + '/render_favicon.sh',
+        data: {
+            name: 'favicon.' + data['format'],
+            options: data
+        }
+    }
+}
+
+var examples = require('../index.js');
+
+module.exports = Object.keys(examples).map(function (key) {
+    var example = examples[key];
+
+    var buds = [];
+    var banner = example['$banner'];
+    if (banner) {
+        buds.push(_bannerShBud(key, example['$banner']));
+    }
+    var favicon = example['$favicon'];
+    if (favicon) {
+        buds.push(_faviconShBud(key, example['$favicon']));
+    }
+    return buds;
+}).reduce(function (a, b) {
+    return [].concat(a).concat(b);
+}, []);
+
+if (!module.parent) {
+    require('coz').render(__filename);
+}
