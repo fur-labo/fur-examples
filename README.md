@@ -84,6 +84,7 @@ Favicon Examples
 | <img src="./example/10-apeman-tmpl-contrib/favicon.png" width="128" /> | `$ fur favicon "tmpl-favicon.svg" --text="tmpl" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/11-apeman-scaffold-contrib/favicon.png" width="128" /> | `$ fur favicon "scff-favicon.svg" --text="scff" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/12-apeman-demo-contrib/favicon.png" width="128" /> | `$ fur favicon "demo-favicon.svg" --text="demo" --color="n" --font="p" --shape="i" --font-size="92" ` |
+| <img src="./example/13-apeman-bud-contrib/favicon.png" width="128" /> | `$ fur favicon "bud-favicon.svg" --text="bud" --color="n" --font="p" --shape="i" --font-size="92" ` |
 
 
 <!-- Section from "doc/readme/03.FaviconExamples.md.hbs" End -->

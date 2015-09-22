@@ -176,3 +176,13 @@ exports['12-apeman-demo-contrib'] = {
         fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
+
+exports['13-apeman-bud-contrib'] = {
+    $favicon: {
+        text: 'bud',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};
