@@ -186,3 +186,23 @@ exports['13-apeman-bud-contrib'] = {
         fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
+
+exports['14-apeman-angular2-contrib'] = {
+    $favicon: {
+        text: 'ng2',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};
+
+exports['15-apeman-react-contrib'] = {
+    $favicon: {
+        text: 'react',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};
