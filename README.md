@@ -87,6 +87,7 @@ Favicon Examples
 | <img src="./example/13-apeman-bud-contrib/favicon.png" width="128" /> | `$ fur favicon "bud-favicon.svg" --text="bud" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/14-apeman-angular2-contrib/favicon.png" width="128" /> | `$ fur favicon "ng2-favicon.svg" --text="ng2" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/15-apeman-react-contrib/favicon.png" width="128" /> | `$ fur favicon "react-favicon.svg" --text="react" --color="n" --font="p" --shape="i" --font-size="92" ` |
+| <img src="./example/16-apeman-proto-contrib/favicon.png" width="128" /> | `$ fur favicon "proto-favicon.svg" --text="proto" --color="n" --font="p" --shape="i" --font-size="92" ` |
 
 
 <!-- Section from "doc/readme/03.FaviconExamples.md.hbs" End -->

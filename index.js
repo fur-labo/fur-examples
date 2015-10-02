@@ -206,3 +206,13 @@ exports['15-apeman-react-contrib'] = {
         fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
     }
 };
+
+exports['16-apeman-proto-contrib'] = {
+    $favicon: {
+        text: 'proto',
+        color: APEMAN_COLOR,
+        font: APEMAN_FONT,
+        shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+        fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+    }
+};
