@@ -30,7 +30,7 @@ apeTasking.runTasks('render', [
             function (filenames, callback) {
                 async.eachSeries(filenames, function (filename, callback) {
                     execcli('bash', [path.resolve(filename)], {
-                        cwd: path.dirname(filename)
+                        cwd: path.dirname(path.resolve(filename))
                     }, callback);
                 }, callback);
             }
