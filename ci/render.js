@@ -12,7 +12,7 @@ var apeTasking = require('ape-tasking'),
     execcli = require('execcli'),
     path = require('path'),
     coz = require('coz'),
-    glob = require('glob'),
+    expandglob = require('expandglob'),
     async = require('async');
 
 
@@ -25,12 +25,13 @@ apeTasking.runTasks('render', [
     function renderImage(callback) {
         async.waterfall([
             function (callback) {
-                glob('example/*/render*.sh', callback);
+                expandglob('example/*/render*.sh', callback);
             },
             function (filenames, callback) {
                 async.eachSeries(filenames, function (filename, callback) {
-                    execcli('bash', [path.resolve(filename)], {
-                        cwd: path.dirname(path.resolve(filename))
+                    filename = path.resolve(filename);
+                    execcli(filename, {
+                        cwd: path.dirname(filename)
                     }, callback);
                 }, callback);
             }
