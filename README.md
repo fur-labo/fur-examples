@@ -84,17 +84,7 @@ Favicon Examples
 | <img src="./example/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.svg" --text="P" --color="bi" --font="cn" --shape="a" ` |
 | <img src="./example/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.svg" --text="pon" --color="ah" --font="ar" --shape="g" ` |
 | <img src="./example/06-the/favicon.png" width="128" /> | `$ fur favicon "the-favicon.svg" --text="the" --color="ac" --font="e" --shape="c" --font-size="124" ` |
-| <img src="./example/07-apeman-ui-contrib/favicon.png" width="128" /> | `$ fur favicon "ui-favicon.svg" --text="ui" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/08-apeman-app-contrib/favicon.png" width="128" /> | `$ fur favicon "app-favicon.svg" --text="app" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/09-apeman-task-contrib/favicon.png" width="128" /> | `$ fur favicon "task-favicon.svg" --text="task" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/10-apeman-tmpl-contrib/favicon.png" width="128" /> | `$ fur favicon "tmpl-favicon.svg" --text="tmpl" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/11-apeman-scaffold-contrib/favicon.png" width="128" /> | `$ fur favicon "scff-favicon.svg" --text="scff" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/12-apeman-demo-contrib/favicon.png" width="128" /> | `$ fur favicon "demo-favicon.svg" --text="demo" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/13-apeman-bud-contrib/favicon.png" width="128" /> | `$ fur favicon "bud-favicon.svg" --text="bud" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/14-apeman-angular2-contrib/favicon.png" width="128" /> | `$ fur favicon "ng2-favicon.svg" --text="ng2" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/15-apeman-react-contrib/favicon.png" width="128" /> | `$ fur favicon "react-favicon.svg" --text="react" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/16-apeman-proto-contrib/favicon.png" width="128" /> | `$ fur favicon "proto-favicon.svg" --text="proto" --color="n" --font="p" --shape="i" --font-size="92" ` |
-| <img src="./example/17-apeman-command/favicon.png" width="128" /> | `$ fur favicon "cmd-favicon.svg" --text="cmd" --color="n" --font="p" --shape="i" --font-size="92" ` |
 
 
 
