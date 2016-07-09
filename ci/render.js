@@ -4,37 +4,26 @@
  * Render example.
  */
 
-"use strict";
+'use strict'
 
-process.chdir(__dirname + '/..');
+process.chdir(`${__dirname}/..`)
 
-var apeTasking = require('ape-tasking'),
-    execcli = require('execcli'),
-    path = require('path'),
-    coz = require('coz'),
-    expandglob = require('expandglob'),
-    async = require('async');
-
+const apeTasking = require('ape-tasking')
+const execcli = require('execcli')
+const path = require('path')
+const coz = require('coz')
+const co = require('co')
+const { exec } = require('child_process')
+const expandglob = require('expandglob')
 
 apeTasking.runTasks('render', [
-    function renderBuds(callback) {
-        coz.render([
-            'example/.*.bud'
-        ], callback);
-    },
-    function renderImage(callback) {
-        async.waterfall([
-            function (callback) {
-                expandglob('example/*/render*.sh', callback);
-            },
-            function (filenames, callback) {
-                async.eachSeries(filenames, function (filename, callback) {
-                    filename = path.resolve(filename);
-                    execcli(filename, {
-                        cwd: path.dirname(filename)
-                    }, callback);
-                }, callback);
-            }
-        ], callback);
+  () => coz.render([
+    'example/.*.bud'
+  ]),
+  () => co(function * () {
+    let filenames = yield expandglob(`${__dirname}/../example/*/render*.sh`)
+    for (let filename of filenames) {
+      yield execcli(filename, [], { cwd: path.dirname(filename) })
     }
-], true);
+  })
+], true)

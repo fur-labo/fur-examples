@@ -1,79 +1,79 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"/>
-    <style type="text/css">
-            {{{read './.index.css'}}}
-    </style>
-    <title>{{pkg.name}}</title>
+  <meta charset="UTF-8"/>
+  <style type="text/css">
+      {{{read './.index.css'}}}
+  </style>
+  <title>{{pkg.name}}</title>
 </head>
 <body>
 <header>
-    <div class="container">
-        <h1>{{pkg.name}}</h1>
-    </div>
+  <div class="container">
+    <h1>{{pkg.name}}</h1>
+  </div>
 </header>
 <main>
-    <div class="container">
-        <article>
-            <h1>Banner example</h1>
+  <div class="container">
+    <article>
+      <h1>Banner example</h1>
 
-            <table class="wide-table">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Command</th>
-                </tr>
-                </thead>
-                <tbody>
-                {{#each example.banner}}
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="{{{img}}}"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
-                            </code>
-                        </td>
+      <table class="wide-table">
+        <thead>
+        <tr>
+          <th>Image</th>
+          <th>Command</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each example.banner}}
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="{{{img}}}"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
+              </code>
+            </td>
 
-                    </tr>
-                {{/each}}
-                </tbody>
-            </table>
-        </article>
-    </div>
-    <div class="container">
-        <article>
-            <h1>Favicon example</h1>
+          </tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </article>
+  </div>
+  <div class="container">
+    <article>
+      <h1>Favicon example</h1>
 
-            <table class="wide-table">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Command</th>
-                </tr>
-                </thead>
-                <tbody>
-                {{#each example.favicon}}
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="{{{img}}}"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
-                            </code>
-                        </td>
+      <table class="wide-table">
+        <thead>
+        <tr>
+          <th>Image</th>
+          <th>Command</th>
+        </tr>
+        </thead>
+        <tbody>
+        {{#each example.favicon}}
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="{{{img}}}"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "{{name}}" {{#each options}}--{{spinalcase @key}}="{{this}}" {{/each}}
+              </code>
+            </td>
 
-                    </tr>
-                {{/each}}
-                </tbody>
-            </table>
-        </article>
-    </div>
+          </tr>
+        {{/each}}
+        </tbody>
+      </table>
+    </article>
+  </div>
 </main>
 </body>
 

@@ -2,13 +2,13 @@
  * example for fur
  */
 
-"use strict";
+'use strict'
 
 var pkg = require('../package.json'),
     path = require('path'),
     stringcase = require('stringcase'),
     util = require('util'),
-    fs = require('fs');
+    fs = require('fs')
 
 module.exports = {
     force: true,
@@ -16,7 +16,7 @@ module.exports = {
     data: {
         pkg: pkg,
         get example() {
-            var examples = require('../index');
+            var examples = require('../index')
             var banners = [],
                 favicons = [];
             Object.keys(examples).forEach(function (key) {
@@ -28,16 +28,16 @@ module.exports = {
                         img: util.format('./%s/banner.png', key),
                         name: stringcase.spinalcase(banner['text']) + '-banner.' + banner['format'],
                         options: banner
-                    });
+                    })
                 }
                 if (favicon) {
                     favicons.push({
                         img: util.format('./%s/favicon.png', key),
                         name: stringcase.spinalcase(favicon['text']) + '-favicon.' + favicon['format'],
                         options: favicon
-                    });
+                    })
                 }
-            });
+            })
             return {
                 banner: banners,
                 favicon: favicons
@@ -47,5 +47,5 @@ module.exports = {
 };
 
 if (!module.parent) {
-    require('coz').render(__filename);
+    require('coz').render(__filename)
 }

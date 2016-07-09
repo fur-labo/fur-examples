@@ -1,376 +1,376 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8"/>
-    <style type="text/css">
-            body, html {
-    margin: 0;
-    padding: 0;
+  <meta charset="UTF-8"/>
+  <style type="text/css">
+      body, html {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: "Helvetica Neue", "Helvetica,Arial";
-    font-size: 10pt;
-    color: #555;
-    padding-top: 44px;
+  font-family: "Helvetica Neue", "Helvetica,Arial";
+  font-size: 10pt;
+  color: #555;
+  padding-top: 44px;
 }
 
 header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    right: 0;
-    line-height: 44px;
-    height: 44px;
-    background-color: rgba(250, 250, 250, 0.86);
-    border-bottom: 1px solid #CCC;
-    box-sizing: border-box;
-    overflow: hidden;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  line-height: 44px;
+  height: 44px;
+  background-color: rgba(250, 250, 250, 0.86);
+  border-bottom: 1px solid #CCC;
+  box-sizing: border-box;
+  overflow: hidden;
 }
 
 header h1 {
-    margin: 0;
-    line-height: 44px;
-    height: 44px;
-    padding: 0 8px;
-    box-sizing: border-box;
-    color: #888;
-    font-weight: 100;
-    display: inline-block;
+  margin: 0;
+  line-height: 44px;
+  height: 44px;
+  padding: 0 8px;
+  box-sizing: border-box;
+  color: #888;
+  font-weight: 100;
+  display: inline-block;
 }
 
 header nav {
-    display: inline-block;
-    margin: 0 20px;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 header .nav-item {
-    display: inline-block;
-    margin: 0 10px;
-    color: #C9C9C9;
+  display: inline-block;
+  margin: 0 10px;
+  color: #C9C9C9;
 }
 
 header .nav-item:hover {
-    color: #888;
-    text-decoration: none;
+  color: #888;
+  text-decoration: none;
 }
 
 p {
-    padding: 0 8px;
+  padding: 0 8px;
 }
 
 table {
-    border-collapse: collapse;
-    margin: 0 8px;
+  border-collapse: collapse;
+  margin: 0 8px;
 }
 
 th, td {
-    padding: 4px 8px;
-    border: 1px solid #CCC;
+  padding: 4px 8px;
+  border: 1px solid #CCC;
 }
 
 thead th,
 thead td {
-    border-top: none;
-    text-align: center;
+  border-top: none;
+  text-align: center;
 }
 
 .container {
-    max-width: 960px;
-    margin: 0 auto;
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .wide-table {
-    width: 100%;
-    margin: 0 auto;
+  width: 100%;
+  margin: 0 auto;
 }
 
 tbody tr:first-child td {
-    border-top: none;
+  border-top: none;
 }
 
 thead th:first-child,
 tbody td:first-child {
-    border-left: none;
+  border-left: none;
 }
 
 tbody tr:last-child td {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 thead th:last-child,
 tbody td:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 .example-banner {
-    display: inline-block;
-    min-width: 80px;
-    max-width: 280px;
-    height: 64px;
+  display: inline-block;
+  min-width: 80px;
+  max-width: 280px;
+  height: 64px;
 }
 
 .example-favicon {
-    display: inline-block;
-    min-width: 80px;
-    max-width: 280px;
-    height: 64px;
+  display: inline-block;
+  min-width: 80px;
+  max-width: 280px;
+  height: 64px;
 }
 
 .example-identicon {
-    max-height: 48px;
-    max-width: 48px;
+  max-height: 48px;
+  max-width: 48px;
 }
 
 code {
-    display: block;
-    background-color: #FAFAFA;
-    border: 1px solid #F0F0F0;
-    padding: 8px;
-    border-radius: 4px;
+  display: block;
+  background-color: #FAFAFA;
+  border: 1px solid #F0F0F0;
+  padding: 8px;
+  border-radius: 4px;
 }
 
 .text-align-center {
-    text-align: center;
+  text-align: center;
 }
 
 .fadein {
-    opacity: 0;
-    transition: opacity 500ms;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
 a {
-    text-decoration: none;
-    color: rgb(88, 167, 170);
+  text-decoration: none;
+  color: rgb(88, 167, 170)
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 footer {
-    padding: 10px 4px;
-    border-top: 1px solid #F5F5F5;
-    margin: 40px 10px 0;
-    color: #999;
+  padding: 10px 4px;
+  border-top: 1px solid #F5F5F5;
+  margin: 40px 10px 0;
+  color: #999;
 }
 
 footer nav {
-    display: inline-block;
-    font-size: 0.75em;
-    margin: 0 20px;
+  display: inline-block;
+  font-size: 0.75em;
+  margin: 0 20px;
 }
 
 footer .nav-item {
-    display: inline-block;
-    margin: 0 10px;
+  display: inline-block;
+  margin: 0 10px;
 }
 
 .footer-logo {
-    height: 24px;
-    vertical-align: middle;
-    position: relative;
-    display: inline-block;
-    margin: 0 4px;
+  height: 24px;
+  vertical-align: middle;
+  position: relative;
+  display: inline-block;
+  margin: 0 4px;
 }
-    </style>
-    <title>fur-examples</title>
+  </style>
+  <title>fur-examples</title>
 </head>
 <body>
 <header>
-    <div class="container">
-        <h1>fur-examples</h1>
-    </div>
+  <div class="container">
+    <h1>fur-examples</h1>
+  </div>
 </header>
 <main>
-    <div class="container">
-        <article>
-            <h1>Banner example</h1>
+  <div class="container">
+    <article>
+      <h1>Banner example</h1>
 
-            <table class="wide-table">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Command</th>
-                </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./01-fur/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "fur-banner.png" --text="FUR" --color="#ff9100" --font="bt" --shape="a" --format="png" 
-                            </code>
-                        </td>
+      <table class="wide-table">
+        <thead>
+        <tr>
+          <th>Image</th>
+          <th>Command</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./01-fur/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "fur-banner.png" --text="FUR" --color="#ff9100" --font="bt" --shape="a" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./02-coz/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "coz-banner.png" --text="coz" --color="#00b560" --font="aa" --shape="b" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./02-coz/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "coz-banner.png" --text="coz" --color="#00b560" --font="aa" --shape="b" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./03-apeman/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "apeman-banner.png" --text="apeman" --color="n" --font="p" --shape="a" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./03-apeman/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "apeman-banner.png" --text="apeman" --color="n" --font="p" --shape="a" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./04-pudding/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "pudding-banner.png" --text="PUDDING" --color="bi" --font="cn" --shape="e" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./04-pudding/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "pudding-banner.png" --text="PUDDING" --color="bi" --font="cn" --shape="e" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./05-pon/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "pon-banner.png" --text="pon" --color="ah" --font="ar" --shape="f" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./05-pon/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "pon-banner.png" --text="pon" --color="ah" --font="ar" --shape="f" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./06-the/banner.png"/>
-                        </td>
-                        <td>
-                            <code>
-                                $ fur banner "the-banner.png" --text="the" --color="ac" --font="e" --shape="f" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./06-rfunc/banner.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur banner "rfunc-banner.png" --text="rfunc" --color="ac" --font="e" --shape="f" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-    </div>
-    <div class="container">
-        <article>
-            <h1>Favicon example</h1>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </div>
+  <div class="container">
+    <article>
+      <h1>Favicon example</h1>
 
-            <table class="wide-table">
-                <thead>
-                <tr>
-                    <th>Image</th>
-                    <th>Command</th>
-                </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./01-fur/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "f-favicon.png" --text="F" --color="#ff9100" --font="bt" --shape="a" --format="png" 
-                            </code>
-                        </td>
+      <table class="wide-table">
+        <thead>
+        <tr>
+          <th>Image</th>
+          <th>Command</th>
+        </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./01-fur/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "f-favicon.png" --text="F" --color="#ff9100" --font="bt" --shape="a" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./02-coz/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "c-favicon.png" --text="c" --color="#00b560" --font="aa" --shape="c" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./02-coz/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "c-favicon.png" --text="c" --color="#00b560" --font="aa" --shape="c" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./03-apeman/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "ap-favicon.png" --text="ap" --color="n" --font="p" --shape="g" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./03-apeman/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "ap-favicon.png" --text="ap" --color="n" --font="p" --shape="g" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./04-pudding/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "p-favicon.png" --text="P" --color="bi" --font="cn" --shape="a" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./04-pudding/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "p-favicon.png" --text="P" --color="bi" --font="cn" --shape="a" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./05-pon/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "pon-favicon.png" --text="pon" --color="ah" --font="ar" --shape="g" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./05-pon/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "pon-favicon.png" --text="pon" --color="ah" --font="ar" --shape="g" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./06-the/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "the-favicon.png" --text="the" --color="ac" --font="e" --shape="c" --font-size="124" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./06-rfunc/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "rf-favicon.png" --text="rf" --color="ac" --font="e" --shape="c" --font-size="148" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                    <tr>
-                        <td class="text-align-center">
-                            <img class="example-banner"
-                                 src="./08-apeman-app-contrib/favicon.png"/>
-                        </td>
-                        <td>
-                            <code>
-                            $ fur favicon "app-favicon.png" --text="app" --color="n" --font="p" --shape="i" --font-size="92" --format="png" 
-                            </code>
-                        </td>
+          </tr>
+          <tr>
+            <td class="text-align-center">
+              <img class="example-banner"
+                   src="./08-apeman-app-contrib/favicon.png"/>
+            </td>
+            <td>
+              <code>
+                $ fur favicon "app-favicon.png" --text="app" --color="n" --font="p" --shape="i" --font-size="92" --format="png" 
+              </code>
+            </td>
 
-                    </tr>
-                </tbody>
-            </table>
-        </article>
-    </div>
+          </tr>
+        </tbody>
+      </table>
+    </article>
+  </div>
 </main>
 </body>
 
