@@ -86,7 +86,7 @@ Favicon Examples
 | <img src="./example/03-apeman/favicon.png" width="128" /> | `$ fur favicon "ap-favicon.svg" --text="ap" --color="n" --font="p" --shape="g" ` |
 | <img src="./example/04-pudding/favicon.png" width="128" /> | `$ fur favicon "p-favicon.svg" --text="P" --color="bi" --font="cn" --shape="a" ` |
 | <img src="./example/05-pon/favicon.png" width="128" /> | `$ fur favicon "pon-favicon.svg" --text="pon" --color="ah" --font="ar" --shape="g" ` |
-| <img src="./example/06-rfunc/favicon.png" width="128" /> | `$ fur favicon "rfunc-favicon.svg" --text="rfunc" --color="ac" --font="e" --shape="c" --font-size="124" ` |
+| <img src="./example/06-rfunc/favicon.png" width="128" /> | `$ fur favicon "rf-favicon.svg" --text="rf" --color="ac" --font="e" --shape="c" --font-size="148" ` |
 | <img src="./example/08-apeman-app-contrib/favicon.png" width="128" /> | `$ fur favicon "app-favicon.svg" --text="app" --color="n" --font="p" --shape="i" --font-size="92" ` |
 
 
