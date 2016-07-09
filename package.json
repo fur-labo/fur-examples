@@ -1,9 +1,11 @@
 {
   "name": "fur-examples",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Examples for fur",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "prepublish": "./ci/build.js"
+  },
   "repository": "fur-labo/fur-examples",
   "keywords": [
     "fur",
@@ -18,6 +20,7 @@
     "url": "https://github.com/fur-labo/fur-examples/issues"
   },
   "homepage": "https://github.com/fur-labo/fur-examples#readme",
+  "dependencies": {},
   "devDependencies": {
     "ape-deploying": "^5.0.2",
     "ape-releasing": "^4.0.1",
@@ -35,5 +38,8 @@
     "mkdirp": "^0.5.1",
     "stringcase": "^3.0.1"
   },
-  "dependencies": {}
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  }
 }
