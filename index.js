@@ -110,10 +110,18 @@ exports[ '06-rfunc' ] = {
     fontSize: '148'
   }
 }
-
-exports[ '08-apeman-app-contrib' ] = {
+exports[ '07-apeman-middleware' ] = {
   $favicon: {
-    text: 'app',
+    text: 'mw',
+    color: APEMAN_COLOR,
+    font: APEMAN_FONT,
+    shape: APEMAN_CONTRIB_FAVICON_SHAPE,
+    fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+  }
+}
+exports[ '08-apeman-api' ] = {
+  $favicon: {
+    text: 'api',
     color: APEMAN_COLOR,
     font: APEMAN_FONT,
     shape: APEMAN_CONTRIB_FAVICON_SHAPE,
