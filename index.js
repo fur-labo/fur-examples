@@ -3,7 +3,7 @@
  * @namespace FurExamples
  */
 
-'use strict';
+'use strict'
 
 const FUR_FONT = 'bt'
 const FUR_COLOR = '#ff9100'
@@ -15,6 +15,8 @@ const APEMAN_COLOR = 'n'
 const APEMAN_FONT = 'p'
 const APEMAN_CONTRIB_FAVICON_SHAPE = 'i'
 const APEMAN_CONTRIB_FAVICON_FONT_SIZE = 92
+const A_FAVICON_SHAPE = 'g'
+const A_FAVICON_FONT_SIZE = 92
 const PON_COLOR = 'ah'
 const PON_FONT = 'ar'
 const RFUNC_COLOR = 'ac'
@@ -126,5 +128,15 @@ exports[ '08-apeman-api' ] = {
     font: APEMAN_FONT,
     shape: APEMAN_CONTRIB_FAVICON_SHAPE,
     fontSize: APEMAN_CONTRIB_FAVICON_FONT_SIZE
+  }
+}
+
+exports[ '09-a' ] = {
+  $favicon: {
+    text: 'a',
+    color: APEMAN_COLOR,
+    font: APEMAN_FONT,
+    shape: A_FAVICON_SHAPE,
+    fontSize: A_FAVICON_FONT_SIZE
   }
 }

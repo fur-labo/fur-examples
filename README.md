@@ -43,17 +43,17 @@ Examples for fur
 <!-- Sections Start -->
 <a name="sections"></a>
 
-<!-- Section from "doc/readme/01.Index.md.hbs" Start -->
+<!-- Section from "doc/guides/01.Index.md.hbs" Start -->
 
-<a name="section-doc-readme-01-index-md"></a>
+<a name="section-doc-guides-01-index-md"></a>
 + [Banner Examples](#banner-examples)
 + [Favicon Examples](#favicon-examples)
 
-<!-- Section from "doc/readme/01.Index.md.hbs" End -->
+<!-- Section from "doc/guides/01.Index.md.hbs" End -->
 
-<!-- Section from "doc/readme/02.BannerExamples.md.hbs" Start -->
+<!-- Section from "doc/guides/02.BannerExamples.md.hbs" Start -->
 
-<a name="section-doc-readme-02-banner-examples-md"></a>
+<a name="section-doc-guides-02-banner-examples-md"></a>
 <a name="banner-example"></a>
 
 Banner Examples
@@ -69,11 +69,11 @@ Banner Examples
 | <img src="./example/06-rfunc/banner.png" width="128" /> | `$ fur banner "rfunc-banner.svg" --text="rfunc" --color="ac" --font="e" --shape="f" ` |
 
 
-<!-- Section from "doc/readme/02.BannerExamples.md.hbs" End -->
+<!-- Section from "doc/guides/02.BannerExamples.md.hbs" End -->
 
-<!-- Section from "doc/readme/03.FaviconExamples.md.hbs" Start -->
+<!-- Section from "doc/guides/03.FaviconExamples.md.hbs" Start -->
 
-<a name="section-doc-readme-03-favicon-examples-md"></a>
+<a name="section-doc-guides-03-favicon-examples-md"></a>
 <a name="favicon-example"></a>
 
 Favicon Examples
@@ -89,10 +89,11 @@ Favicon Examples
 | <img src="./example/06-rfunc/favicon.png" width="128" /> | `$ fur favicon "rf-favicon.svg" --text="rf" --color="ac" --font="e" --shape="c" --font-size="148" ` |
 | <img src="./example/07-apeman-middleware/favicon.png" width="128" /> | `$ fur favicon "mw-favicon.svg" --text="mw" --color="n" --font="p" --shape="i" --font-size="92" ` |
 | <img src="./example/08-apeman-api/favicon.png" width="128" /> | `$ fur favicon "api-favicon.svg" --text="api" --color="n" --font="p" --shape="i" --font-size="92" ` |
+| <img src="./example/09-a/favicon.png" width="128" /> | `$ fur favicon "a-favicon.svg" --text="a" --color="n" --font="p" --shape="g" --font-size="92" ` |
 
 
 
-<!-- Section from "doc/readme/03.FaviconExamples.md.hbs" End -->
+<!-- Section from "doc/guides/03.FaviconExamples.md.hbs" End -->
 
 
 <!-- Sections Start -->

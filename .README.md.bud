@@ -2,56 +2,56 @@
  * Examples for fur
  */
 
-"use strict";
+'use strict'
 
-var pkg = require('./package.json'),
-    apeTmpl = require('ape-tmpl'),
-    stringcase = require('stringcase'),
-    util = require('util');
+const pkg = require('./package.json')
+const apeTmpl = require('ape-tmpl')
+const stringcase = require('stringcase')
+const util = require('util')
 
 module.exports = apeTmpl.readmeMdBud({
-    pkg: pkg,
-    repo: pkg.repository,
-    sections: 'doc/readme/*.md.hbs',
-    badges: {
-        travis: true,
-        codeclimate: false,
-        codeclimateCoverage: false,
-        gemnasium: false,
-        npm: true
-    },
-    vars: {
-        get examples() {
-            var examples = require('./index');
-            var banners = [],
-                favicons = [];
-            Object.keys(examples).forEach(function (key) {
-                var example = examples[key],
-                    banner = example['$banner'],
-                    favicon = example['$favicon'];
-                if (banner) {
-                    banners.push({
-                        img: util.format('./example/%s/banner.png', key),
-                        name: stringcase.spinalcase(banner['text']) + '-banner.' + (banner['format'] || 'svg'),
-                        options: banner
-                    })
-                }
-                if (favicon) {
-                    favicons.push({
-                        img: util.format('./example/%s/favicon.png', key),
-                        name: stringcase.spinalcase(favicon['text']) + '-favicon.' + (favicon['format'] || 'svg'),
-                        options: favicon
-                    });
-                }
-            });
-            return {
-                banner: banners,
-                favicon: favicons
-            }
+  pkg: pkg,
+  repo: pkg.repository,
+  sections: 'doc/guides/*.md.hbs',
+  badges: {
+    travis: true,
+    codeclimate: false,
+    codeclimateCoverage: false,
+    gemnasium: false,
+    npm: true
+  },
+  vars: {
+    get examples () {
+      let examples = require('./index')
+      let banners = []
+      let favicons = []
+      Object.keys(examples).forEach((key) => {
+        let example = examples[ key ]
+        let banner = example[ '$banner' ]
+        let favicon = example[ '$favicon' ]
+        if (banner) {
+          banners.push({
+            img: util.format('./example/%s/banner.png', key),
+            name: stringcase.spinalcase(banner[ 'text' ]) + '-banner.' + (banner[ 'format' ] || 'svg'),
+            options: banner
+          })
         }
+        if (favicon) {
+          favicons.push({
+            img: util.format('./example/%s/favicon.png', key),
+            name: stringcase.spinalcase(favicon[ 'text' ]) + '-favicon.' + (favicon[ 'format' ] || 'svg'),
+            options: favicon
+          });
+        }
+      });
+      return {
+        banner: banners,
+        favicon: favicons
+      }
     }
+  }
 });
 
 if (!module.parent) {
-    require('coz').render(__filename);
+  require('coz').render(__filename);
 }
